@@ -1,0 +1,787 @@
+.accs1{width:17px; }
+.accs1reject{width: 50px!important; margin-bottom: 10px!important;}
+.offer-page{
+  height: 300px;
+  overflow-y: auto;
+  padding: 15px 15px;
+}
+
+.sendstyles1{margin-top: -8.5rem;
+  margin-left: 14rem;
+  width: 18px;
+  position: relative;}
+.candidatetext1{    background: #d2f7ef !important;
+  border-radius: 0;
+  border: 1px solid #9a9a9a !important;
+  margin-top: 4px;
+  height: 60px!important;
+  width: 97%!important; margin:10px 0!important;}
+.scheduleimg1{width: 28px !important;
+  margin-top: -5px;
+  margin-left: -17px;}
+
+.scheduleaninterview1{COLOR: #4a4a4a;
+  font-weight: bold;
+  background: #98d3cc;
+  border: 1px solid #979797;
+  border-radius: 8px;
+  padding: 2px 29px;
+  font-size: 13px;
+  margin-top: 0px;}
+.acceptbtn{font-size: 12px!important;width: 120px!important; padding:5px 0!important; background: #95ac7a!important; border: 1px solid #417505!important; margin-bottom: 20px; color:#000}
+.reschedulebtn{font-size: 12px!important;width: 120px!important; padding:5px 0!important;background-image: linear-gradient(#fbd961, #f76f1f)!important;margin-bottom: 20px}
+.declinebtn{font-size: 12px!important;width: 120px!important; padding:5px 0!important;background-image: linear-gradient(#f24e5d, #a2061d)!important;}
+.dt .react-datetime-picker__wrapper{width: 250px!important; margin-top: 10px;}
+.datemartop{
+  margin-top: 1rem;
+}
+.maroffertop{margin-top: 10px;}
+.bxwidth{width: 425px!important;}
+.tablemargin{margin-top: 2%!important;}
+.INTEREST{
+    color: orange;
+}
+.SELECTED,.fa-thumbs-up{
+    color: green
+}
+.INACTIVE,.fa-thumbs-down,.fa-file-excel{
+    color: red
+}
+.pagination {
+    float: right;
+}
+// .cardcrd {
+//     border: 5px solid #d8d8d8;
+//     background: #fff;
+//     border-radius: 10px;
+//     padding: 30px;
+//     border-bottom-left-radius: 0px;
+//     border-bottom-right-radius: 0px;
+//     /* width: 122px; */
+//     background: #fff;
+//     margin: 49px;
+// }
+.card-box {
+    background-color: rgba(0, 0, 0, 0.14);
+    border: 2px solid #49d3c7;
+}
+.border-profile{
+    border: 2px solid gray;
+    border-radius: 22px;
+}
+.profile-name{
+    margin-left: 21%;
+}
+.btn {
+    border-radius: 7rem;
+    border: 2px solid darkgray;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  // body {
+  //   background-color: #edeff2;
+  //   font-family: "Calibri", "Roboto", sans-serif;
+  // }
+  
+  .chat_window {
+    position: absolute;
+    width: calc(100% - 20px);
+    max-width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #fff;
+    left: 50%;
+    top: 68%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    background-color: #f8f8f8;
+    overflow: hidden;
+  }
+  
+  .top_menu {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px 0 15px;
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+  }
+  .top_menu .buttons {
+    margin: 3px 0 0 20px;
+    position: absolute;
+  }
+  .top_menu .buttons .button {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+  }
+  .top_menu .buttons .button.close {
+    background-color: #f5886e;
+  }
+  .top_menu .buttons .button.minimize {
+    background-color: #fdbf68;
+  }
+  .top_menu .buttons .button.maximize {
+    background-color: #a3d063;
+  }
+  .top_menu .title {
+    text-align: center;
+    color: #bcbdc0;
+    font-size: 20px;
+  }
+  
+  .messages {
+    position: relative;
+    list-style: none;
+    padding: 20px 10px 0 10px;
+    margin: 0;
+    height: 347px;
+    overflow: scroll;
+  }
+  .messages .message {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: all 0.5s linear;
+    opacity: 0;
+  }
+  .messages .message.left .avatar {
+    background-color: #f5886e;
+    float: left;
+  }
+  .messages .message.left .text_wrapper {
+    background-color: #ffe6cb;
+    margin-left: 20px;
+  }
+  .messages .message.left .text_wrapper::after, .messages .message.left .text_wrapper::before {
+    right: 100%;
+    border-right-color: #ffe6cb;
+  }
+  .messages .message.left .text {
+    color: #c48843;
+  }
+  .messages .message.right .avatar {
+    background-color: #fdbf68;
+    float: right;
+  }
+  .messages .message.right .text_wrapper {
+    background-color: #c7eafc;
+    margin-right: 20px;
+    float: right;
+  }
+  .messages .message.right .text_wrapper::after, .messages .message.right .text_wrapper::before {
+    left: 100%;
+    border-left-color: #c7eafc;
+  }
+  .messages .message.right .text {
+    color: #45829b;
+  }
+  .messages .message.appeared {
+    opacity: 1;
+  }
+  .messages .message .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .messages .message .text_wrapper {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 6px;
+    width: calc(100% - 85px);
+    min-width: 100px;
+    position: relative;
+  }
+  .messages .message .text_wrapper::after, .messages .message .text_wrapper:before {
+    top: 18px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  .messages .message .text_wrapper::after {
+    border-width: 13px;
+    margin-top: 0px;
+  }
+  .messages .message .text_wrapper::before {
+    border-width: 15px;
+    margin-top: -2px;
+  }
+  .messages .message .text_wrapper .text {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  .bottom_wrapper {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 20px;
+    position: absolute;
+    bottom: 0;
+  }
+  .bottom_wrapper .message_input_wrapper {
+    display: inline-block;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #bcbdc0;
+    width: calc(100% - 160px);
+    position: relative;
+    padding: 0 20px;
+  }
+  .bottom_wrapper .message_input_wrapper .message_input {
+    border: none;
+    height: 100%;
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+    position: absolute;
+    outline-width: 0;
+    color: gray;
+  }
+  .bottom_wrapper .send_message {
+    width: 140px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #a3d063;
+    border: 2px solid #a3d063;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    text-align: center;
+    float: right;
+  }
+  .bottom_wrapper .send_message:hover {
+    color: #a3d063;
+    background-color: #fff;
+  }
+  .bottom_wrapper .send_message .text {
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+    line-height: 48px;
+  }
+  
+  .message_template {
+    display: none;
+  }
+  
+//   .title-name {
+//     color: #0b3e7c;
+//     margin-top: 2rem;
+// }
+.table{
+  thead{
+    th{
+      color: #606060;
+      font-weight: bold;
+    }
+  }
+}
+.table{
+  td{
+    line-height: 15px;
+  }
+} 
+
+.chatroom{
+  font-weight: bold; 
+  padding-left: 0;
+  padding-top: 12px;
+}
+.chatstyles{width: 60px;}
+.chatbck{
+    background: #ddc6cc;
+    border: 1px solid #979797;
+    padding: 5px 30px 20px 30px;
+    clear: both;
+    border-radius: 20px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.viewchat{color: #466489; font-weight: bold; font-size: 14px;}
+// .martopp{margin-top: 15px;}
+.chatmsgs{
+  background: #e1f0f1;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid #979797;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 5px;
+    color: #9b9b9b;
+}
+.chatmsgsgreen{
+  background: #d1f1b0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid #979797;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 5px;
+    color: #9b9b9b;
+}
+.txtchat{
+  line-height: 15px;
+  font-weight: 600;
+  position: relative;
+  color: #9b9b9b;
+  font-size: 15px;
+}
+
+.chatnametime{
+    position: absolute;
+    right: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 0px;
+}
+.borderleft{border-left: 1px solid #b0b0b0}
+.checkkbx input[type="checkbox"]{margin:0px;}
+.requestpara{
+  color: #587da5;
+    font-weight: bold;
+    text-align: right;
+    font-size: 11px;
+}
+
+.requestparapad{padding-left: 0px;}
+
+
+.cardcrdactive {
+  margin: 0px 10px 0 0;
+  border: 1px solid #979797;
+  background: #d8d8d8;
+  padding: 16px 25px;
+  border-radius: 10px;
+  width: 542px;
+  height: 450px;
+  text-align: left;
+  overflow-y: auto;
+
+
+  // margin: 0px 10px 0 0;
+  // border: 1px solid #979797;
+  // background: #d8d8d8;
+  // padding: 16px 16px;
+  // border-radius: 10px;
+  // width: 437px !important;
+  // height: 590px !important;
+}
+
+.jobdesc {
+  width: 100%;
+  height: 327px;
+}
+.card{border:none;}
+.jobdesc{width: 100%;}
+.addamessage2 {
+  text-align: left;
+  color: #3b597e;
+  line-height: 14px;
+  font-size: 13px;
+  margin-top: 12px;
+  font-weight: bold;
+  padding-left:0px;
+
+}
+// .addmsg1 {
+//   font-weight: 600;
+//     font-size: 11.1px;
+// }
+.addmsg1 {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 10px;
+  }
+.pendingcolor {
+  color: #417505;
+}
+.updateon{
+    color: #042c5e;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: -0.7px;
+    margin-top: 20px;
+}
+
+.activestyles{
+  background: #98d3cc;
+    padding: 1px 14px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #94a6ba;
+    font-weight: bold;
+    border: 1px solid #979797;
+}
+
+
+
+.offerjohn{padding-right: 0px;}
+.offerjohn h6{font-weight: bold; color: #9b9b9b}
+.offerjohn p{
+    line-height: 14px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #9b9b9b
+}
+
+.ratingbox{
+    background: #684b1b;
+    padding: 10px 20px;
+    color: #ffcf29;
+    border-radius: 10px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.ratingbox{
+  .rating{font-size: 13px; margin-bottom:0px;}
+  .padleftt{font-size: 10px; font-weight: bold; margin-top: 4px;}
+}
+
+.reportconcerns{
+  background: #d8d8d8;
+  padding: 10px 20px;
+  color: #ffcf29;
+  border-radius: 10px;
+  height: 100px;
+  border: 1px solid #979797;
+  margin-bottom: 30px;
+}
+
+.reportstyles{
+  color: #d0021b; font-size: 13px; font-weight: bold;
+}
+
+.reportconcerns{
+  .visible{
+    color: #d0021b;
+    font-size: 10px;
+    font-weight: bold;
+  }
+}
+.activejob-file-view{
+  height: 327px;
+  width: 100%;
+}
+.tablemain { td {padding-top: 10px!important;}}
+
+.padrightt{padding-right:0px;}
+.padleftt{padding-left:0px;}
+
+@media only screen and (max-width : 320px) {
+       
+}
+
+@media only screen and (min-width : 321px) and (max-width : 600px) {
+  #activejob{ 
+   
+    .table {
+      margin-left: 0;}
+      .profilenamemob{
+        position: fixed;
+        top: 0.5rem;
+        right: 3.8rem;
+    }
+  
+    .navbar-dark .navbar-toggler{position: absolute;
+        right: 14px;
+        top: 13px;}
+     
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  .navbar-dark .navbar-toggler{display:none;}
+  #activejob{
+    .scheduleaninterview1{
+      padding: 2px 2px;
+      font-size: 10px;
+    }
+
+    .dt .react-datetime-picker__wrapper {
+      width: 93% !important;
+  }
+  .candidatetext1 {
+    width: 93% !important;
+  }
+  .scheduleimg1 {
+    width: 19px !important;
+    margin-top: -5px;
+    margin-left: -34px;
+}
+.acceptbtn,.reschedulebtn,.declinebtn{
+  width: 75px !important; font-size: 11spx!important;
+}
+.sendstyles1 {
+  margin-left: 6.8rem;
+}
+    .datemartop {
+        margin-top: 8rem;
+    }
+
+    .cardcrdactive{
+      width: 295px!important;
+      padding: 16px 16px;
+    }
+
+    .table thead th{
+      font-size: 0.6rem !important;
+      line-height: 0.5rem;
+    }
+    .tablemain td{font-size: 11px; line-height: 11px!important;}
+    .editicon {
+      height: 14px;
+  }
+      .grbox{line-height: 4px!important;}
+    .dipslaytxt {
+      margin-top: -25px!important;
+      font-size: 10px!important;
+    }
+    .bgvchecks span{font-size: 11px;}
+    .table td{line-height: 11px!important;}
+
+    .chatstyles {
+      width: 25px;
+  }
+  .chatroom{font-size:10px; padding: 8px 5px 10px 8px; }
+  .chatbck{padding: 5px 5px 20px 13px;height: 41px; }
+  .viewchat{font-size: 10px;}
+  .requestpara{
+    font-size: 10px; 
+    margin-top: -24px;
+    margin-right: -14px;
+  }
+  .addmsg1 {font-size: 9px;}
+  .ratingbox .padleftt{font-size: 10px;}
+  .ratingbox .rating{font-size: 13px;}
+  .ratingbox{padding:0px; width: 160px; height: 70px}
+  .bxwidth {
+    width: 299px !important;
+  }
+  .reportstyles{
+    font-size: 8px;
+  }
+  .offerjohn p{font-size: 8px;}
+  .reportconcerns{padding:8px;}
+  .letterp{
+    position: absolute;
+    top: -47px;
+    right: -145px;
+    width: 30px;
+  }
+  .txtchat{
+    line-height: 9px;
+    font-size: 10px;
+  }
+    .chatnametime {
+      right: 13px;
+      font-size: 10px;
+      bottom: 6px;
+  }
+  
+  
+  .reportconcerns .visible{
+    position: relative;
+    top: -22px;
+    right: -33px;
+  }
+  .reportconcerns{
+    height: 71px;
+  }
+  .cfm{width:100%;}
+  .chatmsgs{padding:10px 10px;}
+  .addamessage2 {font-size: 12px;}
+  .updateon{font-size: 11px;}
+  .rfs{font-size:13px; padding:5px 10px;}
+
+}
+
+}
+
+// @media only screen and (min-width : 1224px)
+// {
+//   .requestpara{font-size: 10px;}
+  
+// }
+
+// @media only screen and (min-width : 1824px){
+
+// }
+
+@media  screen and (min-width: 1366px) and (max-width: 1399px) {
+  /* insert styles here */
+  #activejob{
+    .candidatetext1 {
+      margin: 10px 0 13px 0px !important;
+      height: 41px !important;
+      width: 105% !important;
+  }
+    .updateon{margin-top: -8px}
+    .martopp{margin-top:1rem;}
+    .addamessage2{margin-top: -0.5rem;}
+    hr {
+      margin-top: 0rem;
+      margin-bottom: 1rem;
+    }
+    .cardcrdactive{
+      height: 390px!important;
+    }
+    .jobdesc {
+      height: 275px!important;
+    }
+    .datemartop {
+      margin-top: 0rem!important;
+  }
+  .txtchat{font-size: 12px!important;}
+  .chatmsgs,.chatmsgsgreen{padding: 6px 13px!important;}
+  .requestpara{font-size: 10px!important;}
+  .cfm{width: 138px!important;}
+  .activejob-file-view {
+    height: 277px!important;
+  }
+ 
+
+  .react-datepicker__day{line-height: 0.5rem!important; font-size: 0.6rem;}
+    .react-datepicker{font-size: 0.6rem;}
+    .react-datepicker{
+        float: left;
+        margin-top: 8px;
+    }
+    .calendar-top {
+        margin-top: 5px;
+    }
+    .candidatetext1{margin: 10px 0 0 0px!important; height: 26px !important; width: 105%!important;}
+    .viewbckbigg{padding-top:0px;}
+    .candidatetext9{width: 104%;}
+    .sendstyles {
+        margin-top: -4.2rem;
+        margin-right: -13.5rem;
+    }
+    .react-time-picker__wrapper {
+        display: flex;
+        border: thin solid gray;
+        width: 242px;
+        margin-top: 5px;
+        border-radius: 5px;
+        background:#caeee9;
+    }
+    .sendstyles1 {
+      margin-left: 13.5rem;
+      margin-top: -3.5rem;
+    }
+    // .martopp{margin-top: -1.5rem;}
+  }
+}
+
+/* (1280x1024) SXGA Display */
+@media  screen and (max-width: 1280px) {
+  /* insert styles here */
+}
+
+/* (1440x900) WXGA+ Display */
+@media  screen and (max-width: 1401px) and (max-width:1440){
+  /* insert styles here */
+  #activejob{
+    .cardcrdactive{
+      height: 485px;
+    }
+    .resumetop{height: 390px;}
+    .jobdesc {
+   
+      height: 375px;
+  }
+  .datemartop {
+    margin-top: 1rem;
+}
+.react-datepicker__day{line-height: 0.8rem; font-size: 0.6rem;}
+.react-datepicker{font-size: 0.6rem;}
+.react-datepicker{
+    float: left;
+    margin-top: 8px;
+}
+.calendar-top {
+    margin-top: 5px;
+}
+.candidatetext1{margin: 10px 0 0 0px!important; height: 50px !important; width:105%!important;}
+.viewbckbigg{padding-top:0px;}
+.candidatetext9{width: 104%;}
+.sendstyles1 {
+    margin-top: -6rem;
+    margin-left: 13.5rem!important;
+}
+.react-time-picker__wrapper {
+    display: flex;
+    border: thin solid gray;
+    width: 242px!important;
+    margin-top: 5px;
+    border-radius: 5px;
+    background:#caeee9!important;
+}
+  }
+}
+
+/* (1680x1050) WSXGA+ Display */
+@media  screen and (min-width: 1500px) and (max-width: 1680px) {
+  /* insert styles here */
+  #activejob{
+    .react-datepicker__day{line-height: 0.8rem; font-size: 0.6rem;}
+        .react-datepicker{font-size: 0.6rem; margin-top: 8px;}
+        .react-time-picker__wrapper {
+            display: flex;
+            border: thin solid gray;
+            width: 242px;
+            margin-top: 5px;
+            border-radius: 5px;
+            background:#caeee9;
+        }
+        .candidatetext1{width: 105%!important;}
+        .sendstyles1 {
+            margin-top: -5.5rem;
+            margin-left: 13.5rem;
+        }
+        .candidatetext1{height: 37px!important;}
+  }
+}
+
+/* (1920x1080) Full HD Display */
+@media  screen  and (min-width: 1800px) and (max-width: 1920px) {
+  /* insert styles here */
+  #activejob{
+    .react-datepicker__day{line-height: 0.8rem; font-size: 0.6rem;}
+    .react-datepicker{font-size: 0.6rem;}
+    .react-datepicker{
+        float: left;
+        margin-top: 8px;
+    }
+    .calendar-top {
+        margin-top: 5px;
+    }
+    .candidatetext1{margin: 10px 0 0 0px!important; height: 26px !important; width: 105%!important;}
+    .viewbckbigg{padding-top:0px;}
+    .candidatetext9{width: 104%;}
+    .sendstyles {
+        margin-top: -4.2rem;
+        margin-right: -13.5rem;
+    }
+    .react-time-picker__wrapper {
+        display: flex;
+        border: thin solid gray;
+        width: 242px;
+        margin-top: 5px;
+        border-radius: 5px;
+        background:#caeee9;
+    }
+    .sendstyles1 {
+      margin-left: 13.5rem;
+      margin-top: -3.5rem;
+    }
+}
+}

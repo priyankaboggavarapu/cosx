@@ -1,0 +1,258 @@
+#viewcandidate{
+    .offer-page{background: #fff; font-size: 12px; padding:10px;}
+    .viewoffer{
+        font-size: 10PX;
+        font-weight: 600;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    .tablemain  {
+        td{
+            padding-top: 4px !important;
+            padding-bottom: 4px !important;
+            font-size: 11px!important;
+        }
+    }
+    .table{
+        thead {
+            th{
+            font-size: 11px!important;
+            }
+        }
+    }
+    .cardcrd1{padding: 10px 25px;}
+}
+.paginationalign{margin-left: 30rem;}
+.paginationalign{text-align: right;}
+.tablemain td{padding-top: 8px!important; padding-bottom: 8px!important; font-size: 13px;}
+.mardatetop{margin-top: 16rem;}
+// .sendstyles1{margin-left: 17.5rem;}
+.dt .react-datetime-picker__wrapper{width: 100%!important}
+.react-datetime-picker{width: 100%}
+.candidatetext1{width: 100%!important; border-radius: 5px;}
+// .mrleft{float: left;
+//     width: 102px;
+//     margin-right: 6px;}
+.yellowcolor{color: #f5a623;}
+.mr{margin-left: 13px;}
+.h3-color{
+    color:#dc3545
+}
+// .image-upload > input
+// {
+//     height: 150px;
+//     width: 280px !important;
+//     position: absolute;
+//     top: 15px;
+//     left: 15px;
+//     opacity: 0;
+// }
+.btns{
+    margin-left: 15%;
+    border-radius: 50% !important;
+}
+.btns-succ{
+    border-radius: 50% !important;
+}
+.viewbotbox{
+    background: #fff;
+    border: 1px solid #979797;
+    padding: 2px 10px 10px 5px;
+    font-size: 12px;
+    text-align: left;
+    color: #6486ab;
+    line-height: 14px;
+}
+.viewbot{
+    color: #3b597e;
+    font-weight: bold;
+    font-size: 13px;
+}
+.mrlftrght{margin-left:7px; margin-right:0px; height: 70px; overflow-y:scroll}
+.marbottom{padding-bottom: 15px;}
+
+.martopbox{
+    height: 500px;
+    overflow-y:auto;
+  }
+
+@media only screen and (max-width : 320px) {
+       
+}
+
+@media only screen and (min-width : 321px) and (max-width : 600px) {
+ 
+}
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+}
+// @media only screen and (min-width : 1224px)
+// {
+//     .paginationalign {
+//         margin-left: 85%!important;
+//       }
+// }
+
+// @media only screen and (min-width : 1824px){
+
+// }
+
+
+// .tox-tinymce {
+//     height: 280px !important;
+// }
+
+@media  screen and (min-width: 1366px) and (max-width: 1399px) {
+    /* insert styles here */
+    #viewcandidate{
+        .tablemain  {
+            td{
+                padding-top: 4px !important;
+                padding-bottom: 4px !important;
+                font-size: 8.5px!important;
+            }
+        }
+        .table{
+            thead {
+                th{
+                font-size: 8.5px!important;
+                }
+            }
+        }
+        .react-datepicker__day{line-height: 0.4rem!important; font-size: 0.6rem;}
+        .updateon{margin-top: -8px}
+        .addamessage2{margin-top: -0.5rem;}
+        .jobcompany {
+            font-size: 11px;
+            line-height: 11px;
+        }
+        .martopbox{height: 380px!important;}
+        .resumetop {
+            height: 330px !important;
+        }
+        .cardcrd1{height:500px!important;}
+        .dtdt{position: relative;
+            bottom: -90px;}
+        .react-datepicker__day{line-height: 0.8rem; font-size: 0.6rem;}
+        .react-datepicker{font-size: 0.6rem; margin-top: 8px;}
+        .react-time-picker__wrapper {
+            display: flex;
+            border: thin solid gray;
+            width: 242px;
+            margin-top: 5px;
+            border-radius: 5px;
+            background:#caeee9;
+        }
+        .candidatetext1{width: 105%!important;}
+        .sendstyles1 {
+            margin-top: -8.5rem;
+            margin-left: 13.5rem;
+        }
+    }
+}
+ 
+/* (1280x1024) SXGA Display */
+@media  screen and (max-width: 1280px) {
+    /* insert styles here */
+}
+ 
+/* (1440x900) WXGA+ Display */
+@media  screen and (min-width: 1400px) and (max-width: 1440px) {
+    /* insert styles here */
+    #viewcandidate{
+        .dtdt {
+            position: relative;
+            bottom: -92px;
+        }
+        .cardcrd1{
+            height: 550px;
+        }
+        .resumetop {
+            height: 437px;
+        }
+        .react-datepicker__day{line-height: 0.8rem; font-size: 0.6rem;}
+        .react-datepicker{font-size: 0.6rem; margin-top: 8px;}
+        .react-time-picker__wrapper {
+            display: flex;
+            border: thin solid gray;
+            width: 242px;
+            margin-top: 5px;
+            border-radius: 5px;
+            background:#caeee9;
+        }
+        .candidatetext1{width: 105%!important;}
+        .sendstyles1 {
+            margin-top: -8.5rem;
+            margin-left: 13.5rem;
+        }
+      
+    }
+}
+ 
+/* (1680x1050) WSXGA+ Display */
+@media  screen and (min-width: 1500px) and (max-width: 1680px) {
+    /* insert styles here */
+    #viewcandidate{
+        .dtdt {
+            position: relative;
+            bottom: -39px;
+        }
+        .react-datepicker__day{line-height: 0.8rem; font-size: 0.6rem;}
+        .react-datepicker{font-size: 0.6rem; margin-top: 8px;}
+        .react-time-picker__wrapper {
+            display: flex;
+            border: thin solid gray;
+            width: 242px;
+            margin-top: 5px;
+            border-radius: 5px;
+            background:#caeee9;
+        }
+        .candidatetext1{width: 105%!important;}
+        .sendstyles1 {
+            margin-top: -8.5rem;
+            margin-left: 13.5rem;
+        }
+    }
+}
+ 
+/* (1920x1080) Full HD Display */
+@media  screen and (min-width: 1800px) and (max-width: 1920px) {
+    /* insert styles here */
+    #viewcandidate{
+        .dtdt {
+            position: relative;
+            bottom: -125px;
+        }
+        .cardcrd1{    padding: 0px 25px;}
+        .candidatetext1 {
+            width: 105% !important; height: 40px!important;}
+            .sendstyles1 {
+                margin-left: 13.5rem;
+                margin-top: -6rem;
+            }
+        .react-datepicker{
+            float: left;
+            margin-top: 8px;
+        }
+        .table thead th{font-size: 0.7rem !important;
+            padding: 1px;}
+            .table td {
+                line-height: 13px;
+            }
+            .tablemain td {
+                padding-top: 4px !important;
+                padding-bottom: 4px !important;
+                font-size: 11px;
+            }
+            .react-datepicker__day{line-height: 0.8rem; font-size: 0.6rem;}
+            .react-datepicker{font-size: 0.6rem;}
+            .react-time-picker__wrapper {
+                display: flex;
+                border: thin solid gray;
+                width: 242px;
+                margin-top: 5px;
+                border-radius: 5px;
+                background:#caeee9;
+            }
+    }
+}

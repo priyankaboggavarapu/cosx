@@ -1,0 +1,405 @@
+
+.nav-fill .nav-item{font-size: 13px!important;}
+.profileaname{line-height: 12px;}
+.profileaname{color: #0c3d7f;
+    font-weight: 600;
+    font-variant: petite-caps; text-align: left; margin-left: 10px; font-size: 8px;}
+    .profilesym{
+        color: #fff;
+        font-size: 0.85rem;
+        opacity: 0.8;
+        font-weight: bold;
+    }
+.bckgradient{
+	height:200%;
+	// background-image: linear-gradient(to bottom right, #01e9de,#00F0DE );
+	// background-color: #00F0DE!important;
+    // position: fixed;
+    background-image: linear-gradient(to right, #01e4de , #00c8dd);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 100%;
+}
+.footerbg{background-image: linear-gradient(to right, #00103d , #012a3a);
+    width: 100%;
+    padding: 0.6rem 1rem;
+    color: #fff;
+    // position: fixed;
+    bottom:0rem;
+}
+
+.paddingleftzero .form-control,.paddingrightzero .form-control{border: 1px solid #b0bfd1!important;}
+.company_logo{    
+    width: 148px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.nav-fill { 
+    .nav-item{
+        background-color: #d8d8d8;
+        color: #042c5e !important;
+        font-weight: 600;
+        text-align: left;
+        border: 1px solid #c6c6c6;
+        margin: 15px 25px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+}
+
+.nav-pills .nav-link.active{background-color: #92e5dd!important;}
+
+.img-circle{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 0;
+    text-align: right;
+}
+.nav-link{padding: .1rem 0.5rem;}
+
+.title-name {
+    color: #0b3e7c;
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.title-name1 {
+    color: #9fafc1 !important;
+    font-size: 1rem;
+}
+
+.viewresume{color: #9fafc1 !important;
+    font-size: 1rem;
+    margin-top: 1.7rem;
+}
+
+.input {
+    margin-top: 35px;
+}
+
+.martop {
+    border: 2px solid transparent;
+    margin-top: 8px !important;
+    margin-right: 0px;
+    padding: 9px 4px 6px 4px;
+    border-radius: 5px;
+    margin-left: 0px !important;
+}
+
+.martop:focus, .martop:active, .martop:hover, .martop:visited {
+    border: 2px solid #9ca6a4;
+    border-radius: 5px;
+    
+    background: #caf6ec;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control, .form-control:focus {
+    border: 1px solid #b0bfd1;
+    background-color: transparent;
+    
+    font-weight: bold;
+    font: -webkit-control;
+    font-size: 14px!important;
+    color: #495057 !important;
+    padding: .20rem .75rem;
+    font-size: 14px;
+}
+
+.resumetop{
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.resumetopdoc{
+    height: 356px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+//   .resumetopbot {
+//     height: 430px;
+//     overflow-y: hidden;
+//     overflow-x: hidden;
+//   }
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.table td, .table th{
+    padding: .40rem;
+}
+
+.mrleft {
+    float: left;
+    width: 94px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.grbox{
+    line-height: 15px !important;
+    height: 105px !important;
+    padding: 0.2rem !important;
+    background-image: linear-gradient(#84f2ef, #3adbe5);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.grbox span {
+    font-size: 0.7rem !important;
+    line-height: 0rem;
+    color: #606161; font-weight: bold; 
+}
+
+.boxleft {
+    margin: 0px 9%;
+    width: 100%;
+}
+
+
+// .myjobboxleft {
+    // margin: 0px 15%;
+    // width: 416px;
+// }
+
+.myprofileboxleft {
+    margin: 0px 0px;
+    width: 100%;
+}
+
+// .mrleft {
+//     float: left;
+//     width: 90px;
+//     margin-right: 3px;
+//     margin-left: 3px;
+// }
+
+.resumetopbot {
+    height: 350px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.bot {
+    width: 60%;
+}
+
+.golivee {
+    width: 58% !important;
+}
+
+.cardcrd{
+    border:5px solid #d8d8d8; border-radius: 5px; padding: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px; width: 100%;
+    background: #fff;
+    height: 350px;
+    margin: 49px;
+}
+
+// .cardcrd {
+//         border: 5px solid #d8d8d8;
+//         background: #fff;
+//         border-radius: 10px;
+//         padding: 30px;
+//         border-bottom-left-radius: 0px;
+//         border-bottom-right-radius: 0px;
+//         /* width: 122px; */
+//         background: #fff;
+//         margin: 49px;
+// }
+    
+.image-upload1 img {
+    cursor: pointer;
+    margin-top: 0;
+    margin-left: 0px;
+}
+
+.img-styles {
+    width: 70%;
+}
+
+.cardcrd1 {
+    margin: 0px 10px 0 0;
+    border: 1px solid #979797;
+    background: #d8d8d8;
+    padding: 16px 25px;
+    border-radius: 10px;
+    width: 515px;
+    height: 500px;
+    text-align: center;
+}
+
+.bg-light{background-color: #fff!important;}
+
+.marginleftright {
+    margin-left: -2px;
+    margin-top: 18px;
+}
+
+.job-instance-file-view{width: 100%;
+    height: 390px;
+    border: none;}
+
+    .botjobb {
+        height: 350px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    .botjob {
+        width: 61%;
+    }
+
+    .viewbckbig{
+        text-align: center;
+        margin-top: 36px;
+        width: 62%;
+        margin: 0 auto;
+        padding-top: 14px;
+    }
+
+    .chatroombig{
+        text-align: center;
+        margin-top: 36px;
+        width: 85%;
+        margin: 0 auto;
+        padding-top: 14px;
+    }
+
+    .doc {
+        width: 70%;
+        height: 370px;
+    }
+    .requestcandidate {
+        width: 560px;
+    }
+    .padrightt{padding-right:0px;}
+    .padleftt{padding-left:0px;}    
+    .freelancelist{
+        width: 530px;
+    }
+
+    .gigxinnerfooter{text-align: center; font-size: 1.2rem;}
+
+    @media only screen and (max-width : 320px) {
+       
+    }
+    
+    @media only screen and (min-width : 321px) and (max-width : 480px) {
+       #dashnav{
+       
+
+        .table {
+          margin-left: 0;
+        }
+        .img-circle{
+            height: 35px;
+            width: 35px;
+        }
+
+        .profilenamemob {
+            position: absolute;
+            top: -2.8rem;
+            right: 0rem;
+            left: 8rem;
+        }
+        .profileaname{font-size: 8px; margin-left:4px;
+            margin-right: 1rem;}
+        .navbar-dark .navbar-toggler{
+            position: absolute;
+            right: -5px;
+            top: 13px;
+        }
+            .profilesym{font-size: 0.8rem;}
+            .company_logo {width: 125px;}
+            // .countrystyles {width: 96%}
+            .countrycode{width: 96%}
+            .selectwidth {
+                width: 241px;
+            }
+        }
+    }
+    
+    @media only screen and (min-width : 768px) and (max-width : 1024px) {
+        #dashnav{
+            .company_logo{width: 110px;}
+        
+            .nav-fill .nav-item{
+                margin: 10px 8px;
+                border-radius: 5px;
+                font-size: 11px;
+            }
+        
+            .profileaname{font-size: 10px;}
+        
+            .title-name{font-size: 1.3rem;}
+        
+            .title-name1 {
+                font-size: 1rem;
+                margin-top: 0.5rem;
+            }
+
+            .profilephoto1{font-size: 10px;}
+            .form-control{font-size: 10px!important; padding: 0rem .45rem;    height: 30px;}
+            .form-group {
+                margin-bottom: 0.5rem;
+            }
+           
+        }
+        
+    }
+    
+    // @media only screen and (min-width : 1224px)
+    // {
+    
+    // }
+    
+    // @media only screen and (min-width : 1824px){
+    
+    // }
+
+    @media  screen and (max-width: 1366px) {
+        /* insert styles here */
+        .navbar{padding: 0.2rem 1rem;}
+        .company_logo {
+            width: 133px!important;
+        }
+      }
+      
+      /* (1280x1024) SXGA Display */
+      @media  screen and (max-width: 1280px) {
+        /* insert styles here */
+      }
+      
+      /* (1440x900) WXGA+ Display */
+      @media  screen and (max-width: 1440px) {
+        /* insert styles here */
+        #dashnav{
+            .profilenamemob{padding-left: 150px!important; }
+          
+        }
+      }
+      
+      /* (1680x1050) WSXGA+ Display */
+      @media  screen and (max-width: 1680px) {
+        /* insert styles here */
+      }
+      
+      /* (1920x1080) Full HD Display */
+      @media  screen and (max-width: 1920px) {
+        /* insert styles here */
+      }
+    

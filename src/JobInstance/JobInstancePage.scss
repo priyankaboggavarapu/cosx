@@ -1,0 +1,539 @@
+.martopbox {
+  height: 500px;
+  overflow-y: auto;
+}
+.paginationalign{margin-left: 20rem !important;}
+.paginationalign{text-align: right;}
+.martopbox{
+  height: 500px;
+  overflow-y:auto;
+}
+.callstyles{
+    position: relative;
+    top: 1.9rem;
+    z-index: 1;
+    left: 1.2rem;
+    width: 01rem;    
+}
+.previewdata{position: relative;}
+.previewdatabtm{position: absolute; bottom:0;}
+.postedon{color: #9c9c9c}
+.golivebtn{text-align: center;
+}
+ul.pagination li.page-item.active a.page-link{
+    background: #f1f8fa!important;
+    border:1px solid #39cee5!important;
+    color: #39cee5!important;
+    font-weight: 600;
+    border-radius: 0px;
+}
+ul.pagination a.page-link{
+    color: #000;
+    font-weight: 600;
+    padding: 0.3rem 0.1rem;
+    min-width: 2.7rem;
+    margin-top: 1rem;
+}
+.page-item:last-child .page-link{border-radius: 0px;}
+.page-item:first-child .page-link{border-radius: 0px;}
+.jobinstanceimg{
+    height: 60px;
+    margin-bottom: 10px;
+    width: 74px;
+}
+// .input{
+//     margin-top:11%;
+// }
+
+// .jobinstanceimg{height: 73px;}
+.imgtxt{
+    margin-right: 5%
+}
+.jobcompany{
+    color: #3c5c83;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 13px;
+}
+.rating1{width: 38%!important}
+.rating{
+    background: #684b1b; 
+    width: 80%!important;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    color: #ffcf29; 
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.cardcrd{border:5px solid #d8d8d8; border-radius: 5px; padding: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px; width: 100%;
+    height: 450px;}
+.card-body{padding:0px;}
+.postexpiry{
+    background: #d8d8d8;
+    padding: 16px 20px;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.addamessage1{ padding: 10px; border: 2px solid #949494; border-radius: 5px; color: #939393;}
+.addamessage2{text-align: right; font-size: 15px; padding-left: 16px;}
+.addamessage3{font-size: 12px!important; margin-left:0px!important; margin-top: 0px!important; }
+.choosefile{font-size: 14px;}
+.grbox{height: 105px;}
+
+.searchbyname {
+    border: 1px solid #b0bfd1;
+    padding: 2px 10px;
+    border-radius: 5px 0px 0 5px;
+    width: 84%;
+    font-size: 1rem;
+}
+// .title-name1 {
+//     color: #9fafc1 !important;
+// }
+
+.tdheight{height: 57px;}
+.chatrm {
+    width: 50px !important;
+}
+.marrght {
+    padding-left: 20px !important;
+}
+
+// .mrleft{float: left;
+//     width: 100px!important;
+//     margin-right: 6px;}
+
+
+.boxleft{
+    margin: 0px 56px;
+    width: 425px;
+}
+
+.grbox span{font-size: 0.8rem!important}
+
+.marrght2 {
+    padding-left: 10px !important;
+}
+.marrght {
+    padding-left: 10px !important;
+}
+
+.job-instance-file-view{
+    width: 100%; height: 350px !important; border: none;
+}
+
+.golivee{
+    width:56%!important;
+}
+.table { td{padding:0 0.35rem!important;}}
+// .table{margin-top: 10%!important;}
+.chatrm1{width: 39px!important;}
+
+.instantjobstyles{width:100%; overflow-y: scroll; overflow-x:hidden; height: 400px; margin-bottom: 20px}
+
+
+// Media Queries
+
+  
+@media only screen and (max-width : 320px) {
+       
+}
+
+@media only screen and (min-width : 321px) and (max-width : 600px) {
+  #jobinstance{ 
+    
+//   .cardcrd1{width: 423px;}
+    // .mrleft{width: 78px}
+    // .table {
+    //   margin-left: 0;}
+    //   .profilenamemob{
+    //     position: fixed;
+    //     top: 0.5rem;
+    //     right: 3.8rem;
+    // }
+    // .profileaname{font-size: 0.7rem; margin-left:4px;
+    //     margin-right: 1.4rem;}
+    // .navbar-dark .navbar-toggler{position: absolute;
+    //     right: 14px;
+    //     top: 13px;}
+    //     .profilesym{font-size: 0.8rem;}
+    //     .company_logo {width: 125px;}
+    //     .countrystyles {width: 96%}
+    //     .countrycode{width: 96%}
+    .rating{width: 31%!important;}
+
+    .cardcrd1 {
+      width: 330px !important;
+      height: 512px;
+  }
+  .addmg1{width: 180px;}
+    
+    .myjobupload1 {
+      right: 30px !important;
+    }
+    .pdfdocs1{margin-left: 123px;}
+    .mrleft {
+      width: 60px;
+  }
+  .chatrm {
+    width: 30px !important;
+}
+.chatrm6 {
+  width: 24px !important;
+}
+.imgst1 {
+  width: 70% !important;
+  padding: 2px 4px;
+}
+.tdheight {
+  height: 39px;
+}
+.grbox span {
+  font-size: 9px !important;
+}
+.grbox{line-height: 9px!important;}
+.table td {
+  line-height: 9px!important;
+}
+.grbox {
+  line-height: 9px !important;
+  height: 77px !important;
+}
+.freelancelist {
+  width: 351px!important;
+}
+.tablemain td{font-size: 11px!important;}
+.editicon {
+  height: 15px!important;
+}
+.bot {
+  width: 100%;
+}
+.img-styles {
+  margin-left: 0;
+}
+.dipslaytxt {
+  margin-top: -26px;
+  margin-left: 26px;
+}
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  .navbar-dark .navbar-toggler{display:none;}
+  #jobinstance{
+    .myjobboxleft{width:65%;}
+    .martopbox {
+      height: 370px;
+    }
+    .paginationalign {
+      margin-left: 15rem;
+  }
+    .addamessage1{
+        font-size: 11px;
+        line-height: 10px;
+        width:135px;
+    }
+    .addamessage2{
+        width:135px;
+        font-size: 9px!important;
+        line-height: 11px;
+    }
+      .srchbtnn{
+        padding: 5px 7px;
+      }
+    .callstyles{
+        top: 1.7rem;
+        z-index: 1;
+        left: 0.2rem;
+    }
+    .searchbyname{
+        padding-left: 19px!important;
+        padding-right:5px!important;
+        width: 80%;
+        font-size: 9px;
+    }
+    .fa-search:before {
+    
+        font-size: 11px;
+        margin-top: -2px;
+    }
+      .pdlft{padding-left:0px!important}
+      .martop{padding: 5px 2px 5px 2px!important; margin-top: 2px!important;}
+    .rating{
+        width: 55px!important;font-size: 11px!important;padding-left: 5px;
+        padding-right: 5px;
+    }
+    .jobcompany {
+        font-size: 11px;
+        line-height: 10px;
+    }
+    .jobinstanceimg{
+        height: 40px;
+        width: 50px;
+    }
+    // .uploadadd{width:20px!important; height:20px!important;}
+    // .myjobupload {
+    //     right: 3px !important;
+    // }
+    // .jobopenings{margin-left: -16px; font-size: 8px;}
+    //   .jobopen{width: 30px;
+    //     padding: 0!important;}
+    // .activestyles{font-size: 10px;}
+    // .loading{
+    //     top: 26%;
+    //     left: 38%;
+    //     height: 100vh;
+    //     width: 100%;
+    // }
+    .frelancerspad{padding-left:0px!important;}
+    .chatrm1 {
+        width: 30px !important;
+    }
+    .btn-primary:disabled{
+        padding: 3px 4px;
+        font-size: 11px;
+        position: absolute;
+        top: -28px;
+        right: -59px;
+    }
+    
+    .updatebtn{
+        padding: 3px 4px;
+        font-size: 11px;
+        position: absolute;
+        top: -28px;
+        right: -59px;
+    }
+    .cardcrd1{
+      width: 295px!important;
+      // height: 366px;
+      padding: 16px 16px;
+    }
+    .countrystyles{height: 28px;}
+    .countrystyles1{
+      font-size: 12px; margin:0px;
+    }
+    .selectwidth{
+      width:66px;
+      height: 21px!important;
+    }
+    .geosuggest{
+      font-size: 10px; margin:0.5rem auto
+    }
+    .geosuggest__input{
+      height: 26px;
+    }
+    .golive{
+        margin: 4px 0px;
+        padding: 0.2rem 2.8rem;
+        font-size: 12px;
+    }
+    .srchbtn{height: 30px;}
+
+    .img-styles {
+        width: 107%;
+    }
+    .viewalljobposts{font-size: 13px;}
+    .golive-doc{padding: 3px 4px!important;margin-top: 0% !important;font-size: 12px;
+      width: 73px;}
+  
+  .uploadphoto{
+    right: 23px;
+    top: 5px;
+  }
+  .image-upload > input{
+    height: 36px;
+    width: 100%;
+    top: 15px;
+    left: 0px;
+    }
+    .imgupmedia{
+      position: relative !important;
+      left: -22px !important;
+      top: -2px !important;
+    }
+    .golivedocmedia{
+      position: relative;
+      top: -36px;
+      left: 225px;font-size: 8px;
+      width: 63px;padding: 5px 3px !important;
+    }
+    .pdfdocs{
+      margin-top: -49px;
+      font-size: 10px;
+      margin-left: -30px;
+    }
+   .pdfdocs1 {
+      margin-top: 0px;
+      font-size: 7px;
+      width: 70px;
+      color: #042c5e;
+      font-weight: bold;
+  }
+    .table thead th{
+      font-size: 0.6rem !important;
+      line-height: 0.5rem;
+    }
+    .tablemain td{font-size: 11px; line-height: 11px!important;}
+    .editicon {
+      height: 14px;
+  }
+  .mrleft{width: 56px!important; margin-left:1px!important; margin-right:1px!important;}
+  .grbox span{font-size: 10px;}
+  .addmg1{width:45px; padding:2px 0px;line-height: 8px;}
+  .upimg{width:20px!important; height: 20px!important;}
+  .myjobupload1 {
+    right: 3px !important;
+  }
+  .updatedon{font-size: 9px; line-height: 10px;}
+  .tdheight {
+    height: 44px;
+    position: relative;
+    left: -2px;
+}
+.video_resume{margin-top: 0;
+  margin-bottom: 0;}
+  .imgst1 {
+    width: 100% !important;
+    padding: 5px 8px 2px 6px!important;
+}
+.imgst{width: 96% !important;
+  margin-left: 5px;}
+.grbox span{font-size: 8px!important;
+  line-height: 10px;}
+  .grbox{height: 81px !important; line-height:4px!important;}
+  .chatrm {
+    width: 37px !important;    margin-left: 3px;
+}
+.marrght1{position: relative;
+  padding: 0!important;
+  left: -3px;}
+  .chatrm6 {
+    width: 29px !important;
+    margin-left: 9px;
+}
+.marrght{line-height: 4px!important;}
+}
+.grbox{line-height: 4px!important;}
+.dipslaytxt {
+  margin-top: 30px!important;
+  font-size: 11px!important;
+}
+.bgvchecks span{font-size: 11px;}
+.countrycode{padding:0px!important; width:35px!important;}
+.table td{line-height: 4px!important;}
+.botbtn{
+  padding: 1px 8px;
+}
+.boxleft {
+  margin: 0px 12%;
+}
+.input{margin-top:0px;}
+}
+
+// @media only screen and (min-width : 1224px)
+// {
+//   .paginationalign {
+//     margin-left: 85%!important;
+//   }
+//   .myjobboxleft{width: 545px;}
+// }
+
+// @media only screen and (min-width : 1824px){
+
+// }
+
+@media  screen and (max-width: 1366px) {
+  /* insert styles here */
+  #jobinstance{
+    .cardcrd1{
+      height: 370px!important;
+    }
+    .resumetop{height: 390px;}
+    .input {
+      margin-top: 0px;
+      margin-bottom: 6px!important;
+      padding-right:0px;
+    }
+    .instantjobstyles{    height: 289px!important;}
+    .paginationalign {
+      margin-left: 81% !important;
+      margin-top: 0px!important;
+  }
+  .martopbox {
+    height: 425px;
+  }
+  .martop{padding: 7px 4px 0px 4px!important; margin-top: 3px!important}
+  .jobcompany {
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 11px;
+}
+.jobinstanceimg {
+  height: 48px;
+  margin-bottom: 10px;
+  width: 56px;
+}
+  }
+}
+
+/* (1280x1024) SXGA Display */
+@media  screen and (max-width: 1280px) {
+  /* insert styles here */
+}
+
+/* (1440x900) WXGA+ Display */
+@media  screen and (max-width: 1440px) {
+  /* insert styles here */
+  #jobinstance{
+    .cardcrd1{
+      height: 485px;
+    }
+    .resumetop{height: 390px;}
+    .input {
+      margin-top: 0px;
+      margin-bottom: 20px;
+      padding-right:0px;
+    }
+    .instantjobstyles{    height: 397px;}
+    .paginationalign {
+      margin-left: 83% !important;
+  }
+  }
+}
+
+/* (1680x1050) WSXGA+ Display */
+@media  screen and (max-width: 1680px) {
+  /* insert styles here */
+}
+
+/* (1920x1080) Full HD Display */
+@media  screen and (min-width: 1800px) and (max-width: 1920px) {
+  /* insert styles here */
+  #jobinstance{
+    .instantjobstyles{
+      margin-top: 12px;
+    }
+    .input {
+      margin-bottom: 20px;
+      padding-right: 0;
+    }
+    .golivebtn{width: 570px;}
+    .resumetopdoc {
+      height: 400px;
+      overflow-y:scroll;
+    }
+    .image-upload5 > input{
+      top: 20px;
+      right: 52px;
+    }
+  }
+  
+}

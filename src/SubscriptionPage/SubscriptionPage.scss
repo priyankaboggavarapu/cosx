@@ -1,0 +1,165 @@
+.chkside{
+    background: lightgray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px;
+    width: 40px;
+    text-align: center;
+    height: 30px;
+}
+
+.chkmargin{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.candidatezonered{
+    COLOR: #db3c4f;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 0.4rem;
+}
+
+.candidatezoneblue{
+    COLOR: #0b3d7b;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 4px;
+    line-height: 13px;
+}
+
+.freeplanbtm{
+    color: #0b3d7b;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+.freeplanbtmgreen{
+    color: #608b2d;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.chkmargintop{margin-top: 2.8rem;}
+
+.chkmargintop1 {
+    margin-top: 1.5rem;
+}
+h5.totalfee{font-weight: bold; font-size: 16px;}
+.totalfee1{margin-left: 15px; margin-top: 10px; }
+.paynow{
+    background: #7ed321;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+h6.freeplan{
+    color: #0b3d7b;
+    font-weight: bold;
+
+}
+
+.plandetails{
+    background: #d8d8d8;
+    border:1px solid #c4c4c4;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.freeplanbottom{
+    color: #0b3d7b;
+    font-weight: bold;
+    font-size: 14px;
+    margin:10px;
+}
+
+.chkmargin input[type="checkbox"]{
+    margin-top: 0px!important;
+    margin-left:0px!important;
+}
+
+
+@media only screen and (max-width : 320px) {
+    
+}
+
+@media only screen and (min-width : 321px) and (max-width : 600px) {
+    
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    #subscription{
+        overflow-y:scroll;
+        height: 1200px;
+
+        .freeplanbtm{
+            font-size: 12px;
+            line-height: 13px;
+        }
+        .introductoryoffer{
+            font-size: 17px;
+        }
+        .candidatezoneblue{
+            font-size: 12px;
+        }
+        .chkside{
+            width: 27px;
+            height: 31px;
+            position: relative;
+            top: -34px;
+            left: 25px;
+        }
+        .freeplanbottom{
+            font-size: 11px;
+            margin:0px;
+        }
+        .freeplanbtmgreen{font-size: 11px;}
+        h5.totalfee {
+            font-size: 12px;
+        }
+        .totalfee1{
+            margin-top: 0px;
+        }
+        .paynow{
+            padding: 1px;
+            width: 90px;
+        }
+        .btnstyle{
+            font-size: 13px;
+        }
+    }
+}
+
+@media only screen and (min-width : 1224px){
+    .freeplanbtm{font-size: 11px;}
+    .candidatezoneblue{
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 0;
+        line-height: 13px;
+    }
+    .chkmargintop {
+        margin-top: 2.2rem;
+    }
+    .freeplanbtmgreen{
+        line-height: 14px;
+    }
+    .chkmargintop1 {
+        margin-top: 7px;
+    }
+    .paginationalign {
+        margin-left: 29rem;
+        margin-top: 20px;
+    }
+    .title-name{font-size: 1.3rem;}
+    .introductoryoffer{font-size: 1.3rem;}
+}
+
+@media only screen and (min-width : 1824px){
+
+}

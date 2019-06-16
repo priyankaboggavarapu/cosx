@@ -1,0 +1,82 @@
+.inststyles{
+    color: #6f6f6f;
+}
+// .inputstyle{
+//     width:400px
+// }
+// .form-control{border-color: #d9e0e9!important;     color: gray !important;}
+
+// select#sel1{
+//     -webkit-appearance: button;
+//     -webkit-border-radius: 2px;
+//     -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+//     -webkit-padding-end: 20px;
+//     -webkit-padding-start: 2px;
+//     -webkit-user-select: none;
+//     background-image: url(http://i62.tinypic.com/15xvbd5.png);
+//     background-position: 97% center;
+//     background-repeat: no-repeat;
+//     border: 1px solid #AAA;
+//     color: #555;
+//     font-size: inherit;
+//     /* margin: 20px; */
+//     overflow: hidden;
+//     padding: 5px 10px;
+//     text-overflow: ellipsis;
+//     white-space: nowrap;
+//     width: 75%;
+// }
+
+select#sel1{
+    color: #555!important;
+}
+
+.details{
+    color: #bcc7d3;
+}
+
+.btnstyle {
+    background: #00d1dd;
+    margin-top: 2%;
+    padding: 0.5rem 3rem;
+    border: 1px solid #b0bfd1;
+    border-radius: 5px;
+    color: #042c5e;
+    font-weight: bold;
+    float: right;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.universitypad{
+    padding-left: 0px;
+    font-size: 9px;
+    line-height: 9px;
+    color: #9c9c9c;
+    margin-top: 24px;
+    margin-left: -13px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    
+}
+
+
+@media only screen and (max-width : 320px) {
+    
+}
+
+@media only screen and (min-width : 321px) and (max-width : 600px) {
+    
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .btnstyle{padding: 0.2rem 1rem!important;}
+}
+
+@media only screen and (min-width : 1224px){
+
+}
+
+@media only screen and (min-width : 1824px){
+
+}

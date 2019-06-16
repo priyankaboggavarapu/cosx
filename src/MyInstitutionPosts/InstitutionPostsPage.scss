@@ -1,0 +1,202 @@
+.repostadd{margin-top: 10px;}
+.golivebtnn{width: 540px;}
+.botscrmar{padding-top: 20px;}
+.imgstt {
+    width: 64% !important;
+    padding: 0px 10px 2px 7px;
+}
+.tableoverflow{
+    
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+.input-group-append1 {
+    position: absolute;
+    top: 22px;
+    right: 0px;
+}
+
+// .btn:not(:disabled):not(.disabled) {
+//     cursor: pointer;
+//     background: transparent;
+//     color: gray;
+//     font-size: 20px;
+//     font-weight: 100;
+//     box-shadow: none;
+// }
+
+
+.btnExcel {
+    background: white;
+    border-radius: 5px;
+    color: #1499ac;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px 15px;    
+    border: 2px solid #1499ac;
+    line-height: 16px;
+    font-size: 15px;
+}
+.btnExcel1 {
+    background: white;
+    border-radius: 5px;
+    color: #417505;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px 15px;
+    border: 2px solid #1499ac;
+    line-height: 16px;
+    font-size: 15px;
+}
+
+.download{
+    margin-top: 7px;
+}
+.inputstyle1{
+    width: 480px;
+}
+.input-group-append2 {
+    margin-left: 471px;
+    margin-top: -9%;
+    font-weight: bold;
+    color: darkblue
+}
+.mrrght1{
+    margin-right: 8%
+}
+.golive1{
+    background: #7fefef;
+    padding: 0.5rem 3rem;
+    border: 1px solid #b0bfd1;
+    border-radius: 5px;
+    color: #042c5e;
+    font-weight: bold;
+    margin: 1rem 0;
+    // width: 30%;
+    
+}
+.goliveupload{
+    background: #7fefef;
+    padding: 0.5rem 3rem;
+    border: 1px solid #b0bfd1;
+    border-radius: 5px!important;
+    color: #042c5e;
+    font-weight: bold;   
+}
+.graycolor{color: #606060}
+
+.mt{
+    margin-top: -11%;
+}
+
+.posrelative{position: relative;}
+.calendarstyles{background: transparent; color: gray; font-size: 16px; margin-top: 5px;}
+// .title-name1 {
+//     color: #9fafc1 !important;
+// }
+.table1{width: 100%;}
+.edityourfeed{padding: 10px; background: #c9eee8; border: 1px solid #979797; margin:10px 0 0 0;}
+.edityourtext{font-weight: bold; color: #4a4a4a;}
+.edityourform{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    color: #9b9b9b;
+    margin-bottom: 0px;
+}
+.edityourfeedbtm{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #9b9b9b;
+    padding:10px;
+    background: #c9eee8; 
+    border: 1px solid #979797; 
+    margin:0px 0; 
+    border-top:0px;}
+
+.addamessage2{
+    color: #042c5e;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 7px;
+    line-height: 15px;
+}
+
+.repostad{
+    background: #98d3cc;
+    color: #94a6ba;
+    padding: 2px 7px;
+    font-weight: bold;
+    border-radius: 14px;
+    border: 1px solid #979797;
+}
+.addamessage1 {
+    font-size: 10px; 
+    
+    font-weight: bold;
+    color: #94a6ba; 
+    border: 1px solid #979797;
+    margin-right: 4px;
+    padding: 5px 10px;
+}
+
+.editstyles{
+    font-size: 12px;
+    font-weight: bold;
+    color: #042c5e;
+    padding: 0 5px 0 0px;
+}
+
+.uploadbtnstyles{
+    width: 30px;
+    margin-top: 2px;
+}
+
+.marrght3 {
+    width: 85px !important;
+}
+
+.companiesfontsize{font-size: 14px!important;}
+
+
+@media  screen and (min-width: 1366px) and (max-width: 1399px) {
+    /* insert styles here */
+    #institutionposts{
+        .cardcrd1{
+            height: 370px;
+          }
+          .tableoverflow {
+            height: 320px;
+          }
+    }
+  }
+  
+  /* (1280x1024) SXGA Display */
+  @media  screen and (max-width: 1280px) {
+    /* insert styles here */
+  }
+  
+  /* (1440x900) WXGA+ Display */
+  @media  screen and (min-width: 1400px) and (max-width: 1440px) {
+    /* insert styles here */
+    #institutionposts{
+      .cardcrd1{
+        height: 485px;
+      }
+      .resumetop{height: 390px;}
+      
+    }
+  }
+  
+  /* (1680x1050) WSXGA+ Display */
+  @media  screen and (max-width: 1680px) {
+    /* insert styles here */
+  }
+  
+  /* (1920x1080) Full HD Display */
+  @media  screen and (max-width: 1920px) {
+    /* insert styles here */
+  }
