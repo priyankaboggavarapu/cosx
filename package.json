@@ -8,7 +8,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.7.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "@tinymce/tinymce-react": "^3.0.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "config": "^3.0.1",
     "custom-error": "^0.2.1",
